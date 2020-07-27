@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "description": "A simple node js implementation of uuid v4 for use with Braintree's JS based SDKs.",
   "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "prettier": "prettier --write ."
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/braintree/uuid.git"
@@ -13,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/braintree/uuid/issues"
   },
-  "homepage": "https://github.com/braintree/uuid#readme"
+  "homepage": "https://github.com/braintree/uuid#readme",
+  "devDependencies": {
+    "is-uuid": "^1.0.2",
+    "jest": "^26.1.0",
+    "prettier": "^2.0.5"
+  }
 }
