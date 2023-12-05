@@ -1,6 +1,6 @@
 {
   "name": "@braintree/uuid",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A simple node js implementation of uuid v4 for use with Braintree's JS based SDKs.",
   "main": "index.js",
   "scripts": {
