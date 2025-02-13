@@ -53,7 +53,9 @@ jobs:
           echo "new_version=$(echo $new_version | sed 's/v//')" >> $GITHUB_ENV
         
       - name: Update changelog
-        run: sed -i "s/## unreleased/## ${{ env.new_version }}/i" CHANGELOG.md
+        run: |
+           today=$(date +'%Y-%m-%d')
+           sed -i "s/## unreleased/## ${{ env.new_version }} (${today})/i" CHANGELOG.md
 
       - name: Commit and push changes
         run: |
