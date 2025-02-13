@@ -39,7 +39,7 @@ jobs:
           node-version-file: .nvmrc
           registry-url: ${{ env.NPM_REGISTRY }} 
       - run: npm ci
-      - run: npm publish --provenance --dry-run
+      - run: npm publish --provenance
         env:
           NODE_AUTH_TOKEN: ${{ secrets.BRAINTREE_NPM_ACCESS_TOKEN }}
   publish-release:
