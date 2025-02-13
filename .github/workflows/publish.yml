@@ -22,10 +22,10 @@ concurrency: # prevent concurrent releases
   cancel-in-progress: true
 
 jobs:
-  test: 
+  ci: 
     uses: ./.github/workflows/ci.yml
   bump-version:
-    needs: test
+    needs: ci
     uses: ./.github/workflows/version-bump.yml
     with:
       version_type: ${{ inputs.version_type }}
