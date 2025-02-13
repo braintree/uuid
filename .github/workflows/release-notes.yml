@@ -17,6 +17,9 @@ jobs:
         run: |
           git pull
           latest_version=$(awk '/^## / { if (p) exit; p=1 } p' CHANGELOG.md | grep '##' | sed 's/## //')
+          if $(echo $latest_version | grep -q "(");then
+            latest_version=$(echo $latest_version | sed 's/\ (.*$//')
+          fi
           echo "latest_version=$(echo $latest_version)" >> $GITHUB_ENV
 
       - name: Get details
