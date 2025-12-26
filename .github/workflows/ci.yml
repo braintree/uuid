@@ -1,17 +1,17 @@
 # This workflow will run tests using node
 
-name: CI 
-run-name: Running ci checks 
+name: CI
+run-name: Running ci checks
 on:
   workflow_dispatch:
   workflow_call:
   push:
     branches:
-      - 'main'
-      - 'master'
+      - "main"
+      - "master"
   pull_request:
     branches:
-        - '*'
+      - "*"
 
 jobs:
   test:
