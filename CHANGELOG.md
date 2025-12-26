@@ -6,6 +6,7 @@
   - jest to 30.2.0
   - prettier to 3.7.4
 - Update node to v24
+- Fix workflows to run unit tests on branch push
 
 ## 1.0.1
 

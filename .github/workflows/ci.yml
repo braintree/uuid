@@ -2,16 +2,7 @@
 
 name: CI
 run-name: Running ci checks
-on:
-  workflow_dispatch:
-  workflow_call:
-  push:
-    branches:
-      - "main"
-      - "master"
-  pull_request:
-    branches:
-      - "*"
+on: [push]
 
 jobs:
   test:
