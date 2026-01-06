@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- Update UUID generation to robust v4 implementation
+
 ## 1.0.1
 
 - Dev Dependency updates
