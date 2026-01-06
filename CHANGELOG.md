@@ -2,6 +2,7 @@
 
 ## UNRELEASED
 
+- Update UUID generation to robust v4 implementation
 - Dev Dependency updates
   - jest to 30.2.0
   - prettier to 3.7.4
