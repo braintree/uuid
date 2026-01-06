@@ -1,8 +1,12 @@
 # Changelog
 
-## Unreleased
+## UNRELEASED
 
 - Update UUID generation to robust v4 implementation
+- Dev Dependency updates
+  - jest to 30.2.0
+  - prettier to 3.7.4
+- Update node to v24
 
 ## 1.0.1
 

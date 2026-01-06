@@ -20,7 +20,7 @@
   "homepage": "https://github.com/braintree/uuid#readme",
   "devDependencies": {
     "is-uuid": "^1.0.2",
-    "jest": "^26.1.0",
-    "prettier": "^3.0.2"
+    "jest": "^30.2.0",
+    "prettier": "^3.7.4"
   }
 }
