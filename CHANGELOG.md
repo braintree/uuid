@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- Add ESLint
+
 ## 2.0.0
 
 - Update UUID generation to robust v4 implementation
