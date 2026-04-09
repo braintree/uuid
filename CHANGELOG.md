@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Improve test coverage
 - Add ESLint
 
 ## 2.0.0
