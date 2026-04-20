@@ -20,6 +20,18 @@
     "url": "https://github.com/braintree/uuid/issues"
   },
   "homepage": "https://github.com/braintree/uuid#readme",
+  "jest": {
+    "collectCoverage": true,
+    "collectCoverageFrom": ["index.js"],
+    "coverageThreshold": {
+      "global": {
+        "lines": 80,
+        "statements": 80,
+        "branches": 80,
+        "functions": 80
+      }
+    }
+  },
   "devDependencies": {
     "eslint": "^8.57.0",
     "eslint-config-braintree": "^6.0.0",
